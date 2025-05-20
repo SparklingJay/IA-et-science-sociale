@@ -3,3 +3,4 @@ requests
 groq
 PyMuPDF
 json
+tiktoken
