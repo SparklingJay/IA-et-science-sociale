@@ -13,7 +13,7 @@ LLAMA_MODEL = os.getenv("LLAMA_MODEL")
 if not GROQ_API_KEY or not LLAMA_MODEL:
     raise ValueError("GROQ_API_KEY ou LLAMA_MODEL manquant dans le .env")
 
-FOLDER_PATH = "output_2"
+FOLDER_PATH = "/workspaces/IA-et-science-sociale/data"
 OUTPUT_JSON = "entretiens_structures.json"
 MAX_TOKENS = 5000  # On prend une marge sous la limite de 6000
 
